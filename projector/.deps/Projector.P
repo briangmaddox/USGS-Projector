@@ -1,0 +1,341 @@
+Projector.o: Projector.cpp Projector.h /usr/include/g++-3/iostream \
+  /usr/include/g++-3/iostream.h /usr/include/g++-3/streambuf.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/bits/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stddef.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/wchar.h /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stdarg.h ProjUtil.h \
+  /usr/include/g++-3/vector /usr/include/g++-3/stl_algobase.h \
+  /usr/include/g++-3/stl_config.h /usr/include/g++-3/stl_relops.h \
+  /usr/include/g++-3/stl_pair.h /usr/include/g++-3/type_traits.h \
+  /usr/include/string.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/limits.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/time.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/exception \
+  /usr/include/g++-3/stl_iterator.h /usr/include/g++-3/stl_alloc.h \
+  /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+  /usr/include/bits/time.h /usr/include/signal.h \
+  /usr/include/bits/sigthread.h /usr/include/g++-3/stl_construct.h \
+  /usr/include/g++-3/stl_uninitialized.h /usr/include/g++-3/stl_vector.h \
+  /usr/include/g++-3/stl_bvector.h /usr/include/g++-3/algorithm \
+  /usr/include/g++-3/stl_tempbuf.h /usr/include/g++-3/stl_algo.h \
+  /usr/include/g++-3/stl_heap.h DRect.h \
+  /home/cbilder/include/ProjectionMesh/ProjectionMesh.h \
+  /home/cbilder/include/ProjectionLib/Projection.h \
+  /usr/include/g++-3/string /usr/include/g++-3/std/bastring.h \
+  /usr/include/g++-3/cstddef /usr/include/g++-3/std/straits.h \
+  /usr/include/g++-3/cctype /usr/include/ctype.h \
+  /usr/include/g++-3/cstring /usr/include/g++-3/alloc.h \
+  /usr/include/g++-3/iterator /usr/include/g++-3/cassert \
+  /usr/include/g++-3/std/bastring.cc \
+  /home/cbilder/include/ProjectionLib/ProjectionTypes.h \
+  /home/cbilder/include/ProjectionLib/ProjectionException.h \
+  /home/cbilder/include/MathLib/DlgViewerInterpolator.h \
+  /home/cbilder/include/MathLib/Interpolator.h \
+  /home/cbilder/include/MathLib/Point.h \
+  /home/cbilder/include/MathLib/MathException.h \
+  /home/cbilder/include/MathLib/InterpolatorTypes.h \
+  /home/cbilder/include/MathLib/LeastSquaresPlaneInterpolator.h \
+  /home/cbilder/include/MathLib/BiPolynomialInterpolator.h \
+  /home/cbilder/include/MathLib/PolynomialInterpolator.h \
+  /home/cbilder/include/MathLib/BiLinearInterpolator.h \
+  /home/cbilder/include/MathLib/BiCubicInterpolator.h \
+  /home/cbilder/include/tnt/0.9.3/tnt.h \
+  /home/cbilder/include/tnt/0.9.3/version.h \
+  /home/cbilder/include/tnt/0.9.3/subscrpt.h \
+  /home/cbilder/include/tnt/0.9.3/tntmath.h \
+  /home/cbilder/include/tnt/0.9.3/vec.h /usr/include/g++-3/cstdlib \
+  /usr/include/g++-3/strstream /usr/include/g++-3/strstream.h \
+  /usr/include/g++-3/strfile.h /home/cbilder/include/tnt/0.9.3/cmat.h \
+  /home/cbilder/include/tnt/0.9.3/region2d.h \
+  /home/cbilder/include/tnt/0.9.3/index.h \
+  /home/cbilder/include/tnt/0.9.3/qr.h /usr/include/g++-3/cmath \
+  /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/float.h \
+  /usr/include/bits/mathinline.h /home/cbilder/include/tnt/0.9.3/lu.h \
+  /home/cbilder/include/MathLib/BiCubicSplineInterpolator.h \
+  /home/cbilder/include/ProjectionMesh/PmeshException.h \
+  /home/cbilder/include/ProjectionMesh/MeshNode.h \
+  /home/cbilder/include/ProjectionIO/ProjectionReader.h \
+  /home/cbilder/include/ImageLib/GeoTIFFImageIFile.h \
+  /home/cbilder/include/ImageLib/TIFFImageIFile.h \
+  /home/cbilder/include/ImageLib/ImageIFile.h \
+  /home/cbilder/include/ImageLib/ImageFile.h \
+  /home/cbilder/include/ImageLib/ImageData.h \
+  /home/cbilder/include/ImageLib/AbstractPixel.h \
+  /home/cbilder/include/ImageLib/Palette.h \
+  /home/cbilder/include/ImageLib/ImageException.h \
+  /home/cbilder/include/ImageLib/ImageCommon.h \
+  /home/cbilder/include/ImageLib/RGBPixel.h \
+  /home/cbilder/include/ImageLib/GreyPixel.h \
+  /home/cbilder/include/ImageLib/HSVPixel.h \
+  /home/cbilder/include/tiff/tiffio.h /home/cbilder/include/tiff/tiff.h \
+  /usr/include/stdio.h /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdio.h /home/cbilder/include/tiff/tiffcomp.h \
+  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+  /home/cbilder/include/geotiff/geotiff.h \
+  /home/cbilder/include/geotiff/geo_config.h \
+  /home/cbilder/include/geotiff/geokeys.h \
+  /home/cbilder/include/geotiff/geokeys.inc \
+  /home/cbilder/include/geotiff/geotiffio.h \
+  /home/cbilder/include/geotiff/geovalues.h \
+  /home/cbilder/include/geotiff/epsg_gcs.inc \
+  /home/cbilder/include/geotiff/epsg_datum.inc \
+  /home/cbilder/include/geotiff/epsg_units.inc \
+  /home/cbilder/include/geotiff/epsg_ellipse.inc \
+  /home/cbilder/include/geotiff/epsg_pm.inc \
+  /home/cbilder/include/geotiff/epsg_pcs.inc \
+  /home/cbilder/include/geotiff/epsg_proj.inc \
+  /home/cbilder/include/geotiff/geo_ctrans.inc \
+  /home/cbilder/include/geotiff/epsg_vertcs.inc \
+  /home/cbilder/include/ImageLib/DOQImageIFile.h \
+  /usr/include/g++-3/fstream /usr/include/g++-3/fstream.h \
+  /home/cbilder/include/ImageLib/RawGreyIDataHandler.h \
+  /home/cbilder/include/ImageLib/RawIDataHandler.h \
+  /home/cbilder/include/ImageLib/RawDataHandler.h \
+  /home/cbilder/include/ImageLib/RawRGBIDataHandler.h \
+  /home/cbilder/include/ImageLib/SPCSMapper.h \
+  /home/cbilder/include/ImageLib/ImageProjection.h \
+  /home/cbilder/include/ProjectionLib/UTMProjection.h \
+  /home/cbilder/include/ProjectionLib/ZonedProjection.h \
+  /home/cbilder/include/ProjectionLib/StatePlaneProjection.h \
+  /home/cbilder/include/ProjectionLib/AlbersConicProjection.h \
+  /home/cbilder/include/ProjectionLib/ConicProjection.h \
+  /home/cbilder/include/ProjectionLib/LambertConformalConicProjection.h \
+  /home/cbilder/include/ProjectionLib/MercatorProjection.h \
+  /home/cbilder/include/ProjectionLib/PolarStereographicProjection.h \
+  /home/cbilder/include/ProjectionLib/AzimuthalProjection.h \
+  /home/cbilder/include/ProjectionLib/PolyconicProjection.h \
+  /home/cbilder/include/ProjectionLib/EquidistantConicProjection.h \
+  /home/cbilder/include/ProjectionLib/TransverseMercatorProjection.h \
+  /home/cbilder/include/ProjectionLib/StereographicProjection.h \
+  /home/cbilder/include/ProjectionLib/LambertAzimuthalProjection.h \
+  /home/cbilder/include/ProjectionLib/AzimuthalEquidistantProjection.h \
+  /home/cbilder/include/ProjectionLib/GnomonicProjection.h \
+  /home/cbilder/include/ProjectionLib/OrthographicProjection.h \
+  /home/cbilder/include/ProjectionLib/SinusoidalProjection.h \
+  /home/cbilder/include/ProjectionLib/PseudocylindricalProjection.h \
+  /home/cbilder/include/ProjectionLib/EquirectangularProjection.h \
+  /home/cbilder/include/ProjectionLib/MillerCylindricalProjection.h \
+  /home/cbilder/include/ProjectionLib/VanDerGrintenProjection.h \
+  /home/cbilder/include/ProjectionLib/RobinsonProjection.h \
+  /home/cbilder/include/ProjectionLib/AlaskaConformalProjection.h \
+  /home/cbilder/include/ProjectionLib/HotineObliqueMercatorProjection.h \
+  /home/cbilder/include/ProjectionLib/GeographicProjection.h \
+  /usr/include/g++-3/list /usr/include/g++-3/stl_list.h \
+  /home/cbilder/include/ProjectionIO/ProjectionIOException.h \
+  /home/cbilder/include/ProjectionIO/ProjectionWriter.h \
+  /home/cbilder/include/ImageLib/GeoTIFFImageOFile.h \
+  /home/cbilder/include/ImageLib/TIFFImageOFile.h \
+  /home/cbilder/include/ImageLib/ImageOFile.h \
+  /home/cbilder/include/ProjectionLib/GoodeHomolosineProjection.h \
+  ProjectorException.h ProjectionParams.h \
+  /home/cbilder/include/ImageLib/CacheManager.h \
+  /home/cbilder/include/ImageLib/RGBPalette.h
+Projector.cpp :
+Projector.h :
+/usr/include/g++-3/iostream :
+/usr/include/g++-3/iostream.h :
+/usr/include/g++-3/streambuf.h :
+/usr/include/libio.h :
+/usr/include/_G_config.h :
+/usr/include/bits/types.h :
+/usr/include/features.h :
+/usr/include/sys/cdefs.h :
+/usr/include/gnu/stubs.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stddef.h :
+/usr/include/bits/pthreadtypes.h :
+/usr/include/bits/sched.h :
+/usr/include/wchar.h :
+/usr/include/bits/wchar.h :
+/usr/include/gconv.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stdarg.h :
+ProjUtil.h :
+/usr/include/g++-3/vector :
+/usr/include/g++-3/stl_algobase.h :
+/usr/include/g++-3/stl_config.h :
+/usr/include/g++-3/stl_relops.h :
+/usr/include/g++-3/stl_pair.h :
+/usr/include/g++-3/type_traits.h :
+/usr/include/string.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/limits.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/syslimits.h :
+/usr/include/limits.h :
+/usr/include/bits/posix1_lim.h :
+/usr/include/bits/local_lim.h :
+/usr/include/linux/limits.h :
+/usr/include/bits/posix2_lim.h :
+/usr/include/stdlib.h :
+/usr/include/sys/types.h :
+/usr/include/time.h :
+/usr/include/endian.h :
+/usr/include/bits/endian.h :
+/usr/include/sys/select.h :
+/usr/include/bits/select.h :
+/usr/include/bits/sigset.h :
+/usr/include/sys/sysmacros.h :
+/usr/include/alloca.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/exception :
+/usr/include/g++-3/stl_iterator.h :
+/usr/include/g++-3/stl_alloc.h :
+/usr/include/assert.h :
+/usr/include/pthread.h :
+/usr/include/sched.h :
+/usr/include/bits/time.h :
+/usr/include/signal.h :
+/usr/include/bits/sigthread.h :
+/usr/include/g++-3/stl_construct.h :
+/usr/include/g++-3/stl_uninitialized.h :
+/usr/include/g++-3/stl_vector.h :
+/usr/include/g++-3/stl_bvector.h :
+/usr/include/g++-3/algorithm :
+/usr/include/g++-3/stl_tempbuf.h :
+/usr/include/g++-3/stl_algo.h :
+/usr/include/g++-3/stl_heap.h :
+DRect.h :
+/home/cbilder/include/ProjectionMesh/ProjectionMesh.h :
+/home/cbilder/include/ProjectionLib/Projection.h :
+/usr/include/g++-3/string :
+/usr/include/g++-3/std/bastring.h :
+/usr/include/g++-3/cstddef :
+/usr/include/g++-3/std/straits.h :
+/usr/include/g++-3/cctype :
+/usr/include/ctype.h :
+/usr/include/g++-3/cstring :
+/usr/include/g++-3/alloc.h :
+/usr/include/g++-3/iterator :
+/usr/include/g++-3/cassert :
+/usr/include/g++-3/std/bastring.cc :
+/home/cbilder/include/ProjectionLib/ProjectionTypes.h :
+/home/cbilder/include/ProjectionLib/ProjectionException.h :
+/home/cbilder/include/MathLib/DlgViewerInterpolator.h :
+/home/cbilder/include/MathLib/Interpolator.h :
+/home/cbilder/include/MathLib/Point.h :
+/home/cbilder/include/MathLib/MathException.h :
+/home/cbilder/include/MathLib/InterpolatorTypes.h :
+/home/cbilder/include/MathLib/LeastSquaresPlaneInterpolator.h :
+/home/cbilder/include/MathLib/BiPolynomialInterpolator.h :
+/home/cbilder/include/MathLib/PolynomialInterpolator.h :
+/home/cbilder/include/MathLib/BiLinearInterpolator.h :
+/home/cbilder/include/MathLib/BiCubicInterpolator.h :
+/home/cbilder/include/tnt/0.9.3/tnt.h :
+/home/cbilder/include/tnt/0.9.3/version.h :
+/home/cbilder/include/tnt/0.9.3/subscrpt.h :
+/home/cbilder/include/tnt/0.9.3/tntmath.h :
+/home/cbilder/include/tnt/0.9.3/vec.h :
+/usr/include/g++-3/cstdlib :
+/usr/include/g++-3/strstream :
+/usr/include/g++-3/strstream.h :
+/usr/include/g++-3/strfile.h :
+/home/cbilder/include/tnt/0.9.3/cmat.h :
+/home/cbilder/include/tnt/0.9.3/region2d.h :
+/home/cbilder/include/tnt/0.9.3/index.h :
+/home/cbilder/include/tnt/0.9.3/qr.h :
+/usr/include/g++-3/cmath :
+/usr/include/math.h :
+/usr/include/bits/huge_val.h :
+/usr/include/bits/mathdef.h :
+/usr/include/bits/mathcalls.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/float.h :
+/usr/include/bits/mathinline.h :
+/home/cbilder/include/tnt/0.9.3/lu.h :
+/home/cbilder/include/MathLib/BiCubicSplineInterpolator.h :
+/home/cbilder/include/ProjectionMesh/PmeshException.h :
+/home/cbilder/include/ProjectionMesh/MeshNode.h :
+/home/cbilder/include/ProjectionIO/ProjectionReader.h :
+/home/cbilder/include/ImageLib/GeoTIFFImageIFile.h :
+/home/cbilder/include/ImageLib/TIFFImageIFile.h :
+/home/cbilder/include/ImageLib/ImageIFile.h :
+/home/cbilder/include/ImageLib/ImageFile.h :
+/home/cbilder/include/ImageLib/ImageData.h :
+/home/cbilder/include/ImageLib/AbstractPixel.h :
+/home/cbilder/include/ImageLib/Palette.h :
+/home/cbilder/include/ImageLib/ImageException.h :
+/home/cbilder/include/ImageLib/ImageCommon.h :
+/home/cbilder/include/ImageLib/RGBPixel.h :
+/home/cbilder/include/ImageLib/GreyPixel.h :
+/home/cbilder/include/ImageLib/HSVPixel.h :
+/home/cbilder/include/tiff/tiffio.h :
+/home/cbilder/include/tiff/tiff.h :
+/usr/include/stdio.h :
+/usr/include/bits/stdio_lim.h :
+/usr/include/bits/stdio.h :
+/home/cbilder/include/tiff/tiffcomp.h :
+/usr/include/fcntl.h :
+/usr/include/bits/fcntl.h :
+/home/cbilder/include/geotiff/geotiff.h :
+/home/cbilder/include/geotiff/geo_config.h :
+/home/cbilder/include/geotiff/geokeys.h :
+/home/cbilder/include/geotiff/geokeys.inc :
+/home/cbilder/include/geotiff/geotiffio.h :
+/home/cbilder/include/geotiff/geovalues.h :
+/home/cbilder/include/geotiff/epsg_gcs.inc :
+/home/cbilder/include/geotiff/epsg_datum.inc :
+/home/cbilder/include/geotiff/epsg_units.inc :
+/home/cbilder/include/geotiff/epsg_ellipse.inc :
+/home/cbilder/include/geotiff/epsg_pm.inc :
+/home/cbilder/include/geotiff/epsg_pcs.inc :
+/home/cbilder/include/geotiff/epsg_proj.inc :
+/home/cbilder/include/geotiff/geo_ctrans.inc :
+/home/cbilder/include/geotiff/epsg_vertcs.inc :
+/home/cbilder/include/ImageLib/DOQImageIFile.h :
+/usr/include/g++-3/fstream :
+/usr/include/g++-3/fstream.h :
+/home/cbilder/include/ImageLib/RawGreyIDataHandler.h :
+/home/cbilder/include/ImageLib/RawIDataHandler.h :
+/home/cbilder/include/ImageLib/RawDataHandler.h :
+/home/cbilder/include/ImageLib/RawRGBIDataHandler.h :
+/home/cbilder/include/ImageLib/SPCSMapper.h :
+/home/cbilder/include/ImageLib/ImageProjection.h :
+/home/cbilder/include/ProjectionLib/UTMProjection.h :
+/home/cbilder/include/ProjectionLib/ZonedProjection.h :
+/home/cbilder/include/ProjectionLib/StatePlaneProjection.h :
+/home/cbilder/include/ProjectionLib/AlbersConicProjection.h :
+/home/cbilder/include/ProjectionLib/ConicProjection.h :
+/home/cbilder/include/ProjectionLib/LambertConformalConicProjection.h :
+/home/cbilder/include/ProjectionLib/MercatorProjection.h :
+/home/cbilder/include/ProjectionLib/PolarStereographicProjection.h :
+/home/cbilder/include/ProjectionLib/AzimuthalProjection.h :
+/home/cbilder/include/ProjectionLib/PolyconicProjection.h :
+/home/cbilder/include/ProjectionLib/EquidistantConicProjection.h :
+/home/cbilder/include/ProjectionLib/TransverseMercatorProjection.h :
+/home/cbilder/include/ProjectionLib/StereographicProjection.h :
+/home/cbilder/include/ProjectionLib/LambertAzimuthalProjection.h :
+/home/cbilder/include/ProjectionLib/AzimuthalEquidistantProjection.h :
+/home/cbilder/include/ProjectionLib/GnomonicProjection.h :
+/home/cbilder/include/ProjectionLib/OrthographicProjection.h :
+/home/cbilder/include/ProjectionLib/SinusoidalProjection.h :
+/home/cbilder/include/ProjectionLib/PseudocylindricalProjection.h :
+/home/cbilder/include/ProjectionLib/EquirectangularProjection.h :
+/home/cbilder/include/ProjectionLib/MillerCylindricalProjection.h :
+/home/cbilder/include/ProjectionLib/VanDerGrintenProjection.h :
+/home/cbilder/include/ProjectionLib/RobinsonProjection.h :
+/home/cbilder/include/ProjectionLib/AlaskaConformalProjection.h :
+/home/cbilder/include/ProjectionLib/HotineObliqueMercatorProjection.h :
+/home/cbilder/include/ProjectionLib/GeographicProjection.h :
+/usr/include/g++-3/list :
+/usr/include/g++-3/stl_list.h :
+/home/cbilder/include/ProjectionIO/ProjectionIOException.h :
+/home/cbilder/include/ProjectionIO/ProjectionWriter.h :
+/home/cbilder/include/ImageLib/GeoTIFFImageOFile.h :
+/home/cbilder/include/ImageLib/TIFFImageOFile.h :
+/home/cbilder/include/ImageLib/ImageOFile.h :
+/home/cbilder/include/ProjectionLib/GoodeHomolosineProjection.h :
+ProjectorException.h :
+ProjectionParams.h :
+/home/cbilder/include/ImageLib/CacheManager.h :
+/home/cbilder/include/ImageLib/RGBPalette.h :

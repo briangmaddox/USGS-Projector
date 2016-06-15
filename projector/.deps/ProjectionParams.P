@@ -1,0 +1,5 @@
+ProjectionParams.o: ProjectionParams.cpp ProjectionParams.h \
+  /home/cbilder/include/ProjectionLib/ProjectionTypes.h
+ProjectionParams.cpp :
+ProjectionParams.h :
+/home/cbilder/include/ProjectionLib/ProjectionTypes.h :

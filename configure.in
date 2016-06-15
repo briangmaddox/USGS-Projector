@@ -1,0 +1,170 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT(Makefile.am)
+
+AM_CONFIG_HEADER(config.h)
+
+AM_INIT_AUTOMAKE(projector,0.1)
+
+dnl Checks for programs.
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_RANLIB
+
+dnl Add the directories that hold the other libraries in case not in system
+
+AC_ARG_WITH(frododir, [  --with-frododir=dir      Use LibFrodo includes in directory dir],[FRODOINC=$withval])
+if test "$FRODOINC" ; then
+  FRODO_INC="-I${FRODOINC}"
+else
+  FRODO_INC=""
+fi
+AC_SUBST(FRODO_INC,$FRODO_INC)
+
+AC_ARG_WITH(mathdir, [  --with-mathdir=dir      Use MathLib includes in directory dir],[MATHINC=$withval])
+if test "$MATHINC" ; then
+  MATH_INC="-I${MATHINC}"
+else
+  MATH_INC=""
+fi
+AC_SUBST(MATH_INC,$MATH_INC)
+
+AC_ARG_WITH(gctpcdir, [  --with-gctpcdir=dir      Use Gctpc includes in directory dir],[GCTPCINC=$withval])
+if test "$GCTPCINC" ; then
+  GCTPC_INC="-I${GCTPCINC}"
+else
+  GCTPC_INC=""
+fi
+AC_SUBST(GCTPC_INC,$GCTPC_INC)
+
+AC_ARG_WITH(projIOdir, [  --with-projIOdir=dir      Use LibProjectionIO includes in directory dir],[PROJIOINC=$withval])
+if test "$PROJIOINC" ; then
+  PROJIO_INC="-I${PROJIOINC}"
+else
+  PROJIO_INC=""
+fi
+AC_SUBST(PROJIO_INC,$PROJIO_INC)
+
+AC_ARG_WITH(projmeshdir, [  --with-projmeshdir=dir      Use LibProjectionMesh includes in directory dir],[PROJMESHINC=$withval])
+if test "$PROJMESHINC" ; then
+  PROJMESH_INC="-I${PROJMESHINC}"
+else
+  PROJMESH_INC=""
+fi
+AC_SUBST(PROJMESH_INC,$PROJMESH_INC)
+
+AC_ARG_WITH(projdir, [  --with-projdir=dir      Use LibProjection includes in directory dir],[PROJINC=$withval])
+if test "$PROJINC" ; then
+  PROJ_INC="-I${PROJINC}"
+else
+  PROJ_INC=""
+fi
+AC_SUBST(PROJ_INC,$PROJ_INC)
+
+AC_ARG_WITH(tiffdir, [  --with-tiffdir=dir      Use TIFF includes in directory dir],[TIFFINC=$withval])
+if test "$TIFFINC" ; then
+  TIFF_INC="-I${TIFFINC}"
+else
+  TIFF_INC=""
+fi
+AC_SUBST(TIFF_INC,$TIFF_INC)
+
+AC_ARG_WITH(geotiffdir, [  --with-geotiffdir=dir   Use GeoTIFF includes in directory dir],[GEOTIFFINC=$withval])
+if test "$GEOTIFFINC" ; then
+  GEOTIFF_INC="-I${GEOTIFFINC}"
+else
+  GEOTIFF_INC=""
+fi
+AC_SUBST(GEOTIFF_INC,$GEOTIFF_INC)
+
+AC_ARG_WITH(imagedir, [  --with-imagedir=dir   Use ImageLib includes in directory dir],[IMAGEINC=$withval])
+if test "$IMAGEINC" ; then
+  IMAGE_INC="-I${IMAGEINC}"
+else
+  IMAGE_INC=""
+fi
+AC_SUBST(IMAGE_INC,$IMAGE_INC)
+
+dnl check for lib dirs
+AC_ARG_WITH(frodolib, [  --with-frodolib=dir      Use LibFrodo library path],[FRODOLIB=$withval])
+if test "$FRODOLIB" ; then
+  FRODO_LIB="-I${FRODOLIB}"
+else
+  FRODO_LIB=""
+fi
+AC_SUBST(FRODO_LIB,$FRODO_LIB)
+
+AC_ARG_WITH(mathlib, [  --with-mathlib=dir      Use MathLib library path],[MATHLIB=$withval])
+if test "$MATHLIB" ; then
+  MATH_LIB="-L${MATHLIB}"
+else
+  MATH_LIB=""
+fi
+AC_SUBST(MATH_LIB,$MATH_LIB)
+
+AC_ARG_WITH(gctpclib, [  --with-gctpclib=dir      Use Gctpc library path],[GCTPCLIB=$withval])
+if test "$GCTPCLIB" ; then
+  GCTPC_LIB="-L${GCTPCLIB}"
+else
+  GCTPC_LIB=""
+fi
+AC_SUBST(GCTPC_LIB,$GCTPC_LIB)
+
+AC_ARG_WITH(projIOlib, [  --with-projIOlib=dir      Use LibProjectionIO includes library path],[PROJIOLIB=$withval])
+if test "$PROJIOLIB" ; then
+  PROJIO_LIB="-L${PROJIOLIB}"
+else
+  PROJIO_LIB=""
+fi
+AC_SUBST(PROJIO_LIB,$PROJIO_LIB)
+
+AC_ARG_WITH(projmeshlib, [  --with-projmeshlib=dir      Use LibProjectionMesh library path],[PROJMESHLIB=$withval])
+if test "$PROJMESHLIB" ; then
+  PROJMESH_LIB="-L${PROJMESHLIB}"
+else
+  PROJMESH_LIB=""
+fi
+AC_SUBST(PROJMESH_LIB,$PROJMESH_LIB)
+
+AC_ARG_WITH(projlib, [  --with-projlib=dir      Use LibProjection library path],[PROJLIB=$withval])
+if test "$PROJLIB" ; then
+  PROJ_LIB="-L${PROJLIB}"
+else
+  PROJ_LIB=""
+fi
+AC_SUBST(PROJ_LIB,$PROJ_LIB)
+
+
+AC_ARG_WITH(tifflib, [  --with-tifflib=dir      Use TIFF library path of dir],[TIFFLIB=$withval])
+if test "$TIFFLIB" ; then
+  TIFF_LIB="-L${TIFFLIB}"
+else
+  TIFF_LIB=""
+fi
+AC_SUBST(TIFF_LIB,$TIFF_LIB)
+
+AC_ARG_WITH(geotifflib, [  --with-geotifflib=dir   Use GeoTIFF library path of dir],[GEOTIFFLIB=$withval])
+if test "$GEOTIFFLIB" ; then
+  GEOTIFF_LIB="-L${GEOTIFFLIB}"
+else
+  GEOTIFF_LIB=""
+fi
+AC_SUBST(GEOTIFF_LIB,$GEOTIFF_LIB)
+
+AC_ARG_WITH(imagelib, [  --with-imagelib=dir   Use ImageLib library path of dir],[IMAGELIB=$withval])
+if test "$IMAGELIB" ; then
+  IMAGE_LIB="-L${IMAGELIB}"
+else
+  IMAGE_LIB=""
+fi
+AC_SUBST(IMAGE_LIB,$IMAGE_LIB)
+
+
+dnl Checks for libraries.
+
+dnl Checks for header files.
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+
+dnl Checks for library functions.
+
+AC_OUTPUT(Makefile projector/Makefile projector/docs/Makefile projector/docs/en/Makefile )
